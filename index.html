@@ -23,56 +23,130 @@ contact: admin@software-carpentry.org
 <hr/>
 
 <h2>Setup</h2>
-    {% include setup/overview-bash.html %}
-    {% include setup/overview-editor.html %}
-    {% include setup/overview-git.html %}
-    {% include setup/overview-python.html %}
 
- 
-<p>Please follow the setup instructions below (pick the appropriate operating system) to install those tools on the laptop that you will be bringing to the bootcamp. (If you are having problems you can install the VM-virtual machine, but otherwise it is not needed.)
-    </p>
-<h3>Windows</h3>
+To participate in a Software Carpentry bootcamp,
+you will need working copies of:
+{% include setup/overview-bash.html %}
+{% include setup/overview-git.html %}
+{% include setup/overview-editor.html %}
+</br>
+
+<i>Depending on the programming language that you signed up for you need to also install Python or R, but not both.</i>
+</br>
+
+{% include setup/overview-python.html %}
+{% include setup/overview-r.html %}
+<br/>
+
+<i>The instructions for installing each of these components is organzed below by operating system.</i>
+
 <div class="row-fluid">
   <div class="span6">
 
-    {% include setup/windows-git.html %}
-    {% include setup/windows-bash.html %}
-    {% include setup/windows-editor.html %}
-    {% include setup/windows-anaconda.html %}
- 
-  </div>
-  </div>
-   <h3>Mac OS/X</h3>
-<div class="row-fluid">
-  <div class="span6">
-  
+
+<h3>MacOSX</h3>
+	<div class="well">
 {% include setup/macosx-bash.html %}
-{% include setup/macosx-git.html %}
 {% include setup/macosx-editor.html %}
-{% include setup/macosx-anaconda.html %}
+{% include setup/macosx-git.html %}
+{% include setup/macosx-python.html %}
+{% include setup/macosx-r.html %}
+	</div>
   </div>
- 
-  </div>
-  
-    <h3>Linux</h3>
-<div class="row-fluid">
   <div class="span6">
-  
+
+<h3>Windows</h3>
+	<div class="well">
+{% include setup/windows-swc.html %}
+{% include setup/windows-git.html %}
+{% include setup/windows-editor.html %}
+{% include setup/windows-anaconda.html %}
+{% include setup/windows-r.html %}
+	</div>
+
+<h3>Linux</h3>
+	<div class="well">
 {% include setup/linux-bash.html %}
 {% include setup/linux-git.html %}
 {% include setup/linux-editor.html %}
-{% include setup/linux-anaconda.html %}
- 
-  </div>
-  </div>
-  
-      <h3>Virtual machine</h3>
+{% include setup/linux-python.html %}
+{% include setup/linux-r.html %}
+	</div>
+</div>
+</div>
+
+
+
+<!--    {% include setup/overview-bash.html %}
+    {% include setup/overview-editor.html %}
+    {% include setup/overview-git.html %}
+    {% include setup/overview-python.html %}-->
+
+
+<hr/>
+
+<h2>Topics</h2>
+
 <div class="row-fluid">
   <div class="span6">
-  {% include setup/vm.html %}
- </div>
+    <h3><a href="lessons/swc-shell/tutorial.html">The Unix Shell</a></h3>
+    <ul>
+      <li>{% include guide-shell/intro/title.md %}</li>
+      <li>{% include guide-shell/filedir/title.md %}</li>
+      <li>{% include guide-shell/create/title.md %}</li>
+      <li>{% include guide-shell/pipefilter/title.md %}</li>
+      <li>{% include guide-shell/loop/title.md %}</li>
+      <li>{% include guide-shell/scripts/title.md %}</li>
+      <li>{% include guide-shell/find/title.md %}</li>
+    </ul>
   </div>
+  <div class="span6">
+    <h3>Version control</h3>
+    <ul>
+      <li>What and Why</li>
+      <li>Track and visualize changes</li>
+      <li>When and what to commit</li>
+      <li>Branching and Merging</li>
+      <li>Keeping a clear project history</li>
+      <li>Collaborate using version control</li>
+      <li>The github workflow</li>
+    </ul>
+  </div>
+  <div class="span6">
+    <h3><a href="lessons/swc-pyblocks/opening.html">Python</a></h3>
+    <ul>
+      <li>{% include guide-pyblocks/basic/title.md %}</li>
+      <li>{% include guide-pyblocks/design/title.md %}</li>
+      <li>{% include guide-pyblocks/index/title.md %}</li>
+      <li>{% include guide-pyblocks/forloop/title.md %}</li>
+      <li>{% include guide-pyblocks/lib/title.md %}</li>
+      <li>{% include guide-pyblocks/logic/title.md %}</li>
+      <li>{% include guide-pyblocks/types/title.md %}</li>
+    </ul>
+  </div>
+  <div class="span6">
+    <h3>R</h3>
+    <ul>
+      <li>Basics of R/RStudio</li>
+      <li>Workspace and working directory</li>
+      <li>Working via scripts</li>
+      <li>Care and feeding of R objects</li>
+      <li>Data aggregation</li>
+      <li>Making figures with <code>ggplot2</code></li>
+      <li>Automation and pipelines</li>
+    </ul>
+  </div>
+
+</div>
+
 <hr/>
 
 
- 
+
+<h2>Reference Guides</h2>
+
+<ul>
+  <li><a href="{{page.root}}/lessons/ref/shell.html">The Unix Shell</a></li>
+  <li><a href="{{page.root}}/lessons/ref/python.html">Python</a></li>
+</ul>
+
