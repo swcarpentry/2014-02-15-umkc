@@ -15,7 +15,7 @@ with a keyboard instead of controlling graphical user interfaces
 (GUIs) with a mouse/keyboard combination.
 
 Use a browser to open the tutorial on github, located at:
-    http://github.com/{{page.github_username}}/{{page.bootcamp_slug}}
+    http://github.com/snacktavish/umkc-materials
 
 Click on the directory named `shell`.
 
