@@ -55,11 +55,11 @@ by manipulating some experimental data from a hearing test. To get
 the data for this test, you will need internet access. Just enter the
 command:
 
-    git clone https://github.com/{{page.github_username}}/{{page.bootcamp_slug}}.git
+    git clone https://github.com/snacktavish/umkc-materials.git
 
 Followed by:
 
-    cd {{page.bootcamp_slug}}
+    cd umkc-materials
 
 These 2 commands will grab all of the data needed for this workshop from the
 internet.
