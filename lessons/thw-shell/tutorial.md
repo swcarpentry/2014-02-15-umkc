@@ -278,7 +278,7 @@ To summarize, the commands `ls ~`, `ls ~/.`, `ls ../../`, and `ls
 /home/swc` all do exactly the same thing. These shortcuts are not
 necessary, they are provided for your convenience.
 
-**Our data set: Olympic Medals**
+**Our data set: Cochlear implants**
 
 A cochlear implant is a small electronic device that is surgically
 implanted in the inner ear to give deaf people a sense of
