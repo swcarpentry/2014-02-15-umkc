@@ -1,3 +1,20 @@
+---
+layout: bootcamp
+root: ../
+venue: University of Missouri - Kansas City
+address: TBD
+country: United-States
+humandate: Feb 15-16, 2014
+humantime: 9:00 am - 4:30 pm
+startdate: 2014-02-15
+enddate: 2014-02-16
+latlng: 39.091816,-94.550378
+registration: open
+instructor: ["Emily Jane McTavish", "Jonah Duckles"]
+contact: admin@software-carpentry.org
+
+---
+
 Adapted by Jonah Duckles from earlier work by [Jonah Duckles](https://github.com/jduckles/fossmodules/blob/master/R/Lecture1.mkd) and [Carlos Anderson](https://github.com/redcurry/r-tutorial/blob/master/tutorial.md)
 
 ### Why use R?
