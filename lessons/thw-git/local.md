@@ -169,11 +169,10 @@ Open directories, browse file contents. Learn what you can in a minute.
     HEAD        config      description hooks       info        objects     refs 
 
 Step 3 : Use what you've learned. You may have noticed the file called
-description. You can describe your repository by opening the description
-file and replacing the text with a name for the repository. Mine will be
+description. You can describe your repository replacing the text with a name for the repository. Mine will be
 called "Reproducible Science". You may call yours anything you like.
 
-    $ nano description &
+    $ echo "Reproducible Science" > description
 
 Step 4 : Applications sometimes create files that are not needed. For
 example, some applications create backup or temporary files with names like'filename.bak' and 
@@ -198,7 +197,8 @@ create one, then we'll learn the **git add** command.
 
 Step 1 : Create a file to add to your repository.
 
-    $ nano readme.rst &
+Open a new file in your text editor, named "readme.rst" and save it to your new Good Science directory:
+    
 
 Step 2 : Inform git that you would like to keep track of future changes
 in this file.
