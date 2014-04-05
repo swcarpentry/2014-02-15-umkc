@@ -185,13 +185,13 @@ create one, then we'll learn the **git add** command.
 
 Step 1 : Create a file to add to your repository.
 
-Open a new file in your text editor, named "readme.rst" and save it to your new Good Science directory:
-    
+Open a new file in your text editor, named "readme.txt" and save it to your new Good Science directory:
+  Contents should be "This is my first git repo!"
 
 Step 2 : Inform git that you would like to keep track of future changes
 in this file.
 
-    $ git add readme.rst
+    $ git add readme.txt
 
 ## git status : Checking the Status of Your Local Copy
 
@@ -243,12 +243,14 @@ by a longer explanation if necessary.  Remember, you will be writing
 commit messages for yourself as much as for anyone else.
 
 [Our repo](https://github.com/swcarpentry/bc/) should have some good commit messages.
+VI WARNING!
+If you accidentally find youreself in VI type; ESC : q !
 
 ### Exercise : Commit Your Changes
 
 Step 1 : Commit the file you've added to your repository.
 
-    $ git commit -am "This is the first commit. It adds a readme file."
+    $ git commit -m "This is the first commit. It adds a readme file."
     [master (root-commit) 1863aef] This is the first commit. It adds a readme file.
      1 files changed, 2 insertions(+), 0 deletions(-)
      create mode 100644 readme.rst
@@ -286,18 +288,10 @@ your readme.rst file, but don't yet commit it.
 
     $ git diff
 
-A summarized version of this output can be output with the --stat flag :
-
-    $ git diff --stat
-
 To see only the differences in a certain path, try:
 
     $ git diff HEAD -- [path]
 
-To see what IS staged for commit (that is, what will be committed if you
-type git commit without the -a flag), you can try :
-
-    $ git diff --cached
 
 ## git log : Viewing the History
 
